@@ -11,7 +11,6 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/assets/fonts/bootstr
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -24,8 +23,22 @@ body {
 }
 
 /* Custom page header */
-.header {
-    border-bottom: 1px solid #e5e5e5;
+#header {
+    .navbar{
+      border-radius: 0;
+    }
+    .navbar-inverse .navbar-brand {
+   color: #fff;
+   font-size: 3rem;
+   height: auto;
+  }
+  .tag-line{
+    font-size: 1.5rem;
+    display: block;
+    clear: left;
+    font-style: italic;
+    line-height: 1.5;
+  }
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -69,9 +82,7 @@ body {
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
-    }
+
 
     /* Remove the padding we set earlier */
     .header,

@@ -17,7 +17,12 @@ require.config({
 });
 
 require([
-    'backbone'
-], function (Backbone) {
+    'backbone', 'views/header', 'views/footer'
+], function (Backbone, HeaderView, FooterView) {
     Backbone.history.start();
+
+    new HeaderView();
+    new FooterView();
+
+
 });

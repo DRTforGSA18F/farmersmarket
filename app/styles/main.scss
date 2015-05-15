@@ -40,7 +40,11 @@ body {
     line-height: 1.5;
   }
 }
-
+#searchContainer{
+  .input-group , .input-group-btn{
+    border-radius: 0;
+  }
+}
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
     margin-top: 0;

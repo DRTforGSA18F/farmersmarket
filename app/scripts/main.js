@@ -12,7 +12,8 @@ require.config({
         jquery: '../bower_components/jquery/dist/jquery',
         backbone: '../bower_components/backbone/backbone',
         underscore: '../bower_components/lodash/dist/lodash',
-        bootstrap: '../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap'
+        bootstrap: '../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap',
+        selectize: '../bower_components/selectize/dist/js/selectize'
     }
 });
 

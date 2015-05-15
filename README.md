@@ -1,2 +1,1 @@
-# farmersmarket
-farmers market application
+# Farmers Market Application
